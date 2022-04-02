@@ -1,0 +1,61 @@
+#header {
+  background-color: #242426;
+  height: 100vh;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.opac_zero {
+  background-color: rgba(240, 248, 255, 0);
+}
+
+a:hover {
+  color: #f5cb5c !important;
+}
+.nav-link {
+  font-size: 30px;
+}
+.icone {
+  color: rgb(0, 0, 0);
+}
+
+.pre-text {
+  padding-right: 18%;
+  padding-top: 7%;
+  font-family: "Kaushan Script", cursive;
+  font-size: 60px;
+}
+.bor {
+  border-bottom: solid 2px black;
+}
+
+.btn {
+  font-size: 2rem !important;
+  transition: 0.5s !important;
+}
+.row {
+  position: absolute;
+  top: 22%;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+svg {
+  transition: 0.5s;
+}
+SVG:hover {
+  color: #f5cb5c;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 990px) {
+  .pre-text {
+    font-size: 30px;
+  }
+  .disp {
+    display: none;
+  }
+  .btn {
+    font-size: 1.5rem !important;
+  }
+}

@@ -42,10 +42,12 @@ a:hover {
 }
 .offcanvas-header {
   background-color: #f5cb5c;
+  transition: 0.5s;
 }
 .offcanvas-body {
   background-color: #cfdbd5;
 }
+
 @media screen and (max-width: 990px) {
   .pre-text {
     font-size: 30px;
